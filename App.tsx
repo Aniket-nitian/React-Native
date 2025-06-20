@@ -6,7 +6,7 @@ function App():JSX.Element {
   return (
     <SafeAreaView>
       <View>
-        <Text>Hello Aniket!!</Text>
+        <Text>Hello Aniket chauhan</Text>
       </View>
     </SafeAreaView>
   );
