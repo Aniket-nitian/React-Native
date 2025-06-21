@@ -18,7 +18,6 @@ const App = () => {
        <FancyCard />
        <FancyCard />
 
-
     </ScrollView>
    </SafeAreaView>
   )
