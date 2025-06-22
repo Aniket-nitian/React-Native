@@ -3,6 +3,8 @@ import React from 'react'
 import Flatcards from './components/Flatcards';
 import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
+import ContactList from './components/ContactList';
 
 const App = () => {
   return (
@@ -11,12 +13,11 @@ const App = () => {
       
        <Flatcards />
        <ElevatedCards />
+       <ContactList />
        <FancyCard />
        <FancyCard />
-       <FancyCard />
-       <FancyCard />
-       <FancyCard />
-       <FancyCard />
+      <ActionCard />
+      
 
     </ScrollView>
    </SafeAreaView>
@@ -24,9 +25,3 @@ const App = () => {
 }
 
 export default App;
-
-const style = StyleSheet.create({
-  body:{
-    
-  }
-})
