@@ -5,6 +5,7 @@ import ElevatedCards from './components/ElevatedCards';
 import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
 import ContactList from './components/ContactList';
+import PasswordGenerator from './components/passwordGenerator';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
        <FancyCard />
        <FancyCard />
       <ActionCard />
-      
+      <PasswordGenerator />
 
     </ScrollView>
    </SafeAreaView>
