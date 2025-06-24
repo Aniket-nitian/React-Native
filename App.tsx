@@ -6,6 +6,7 @@ import FancyCard from './components/FancyCard';
 import ActionCard from './components/ActionCard';
 import ContactList from './components/ContactList';
 import PasswordGenerator from './components/passwordGenerator';
+import DiceRoller from './components/DiceRoller';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
        <FancyCard />
       <ActionCard />
       <PasswordGenerator />
+      <DiceRoller />
 
     </ScrollView>
    </SafeAreaView>
