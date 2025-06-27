@@ -7,7 +7,7 @@ const Flatcards = () => {
       <Text style={styles.headingtext}>Flatcards</Text>
       <View style={styles.container}>
         <View style={[styles.card, styles.card1]}>
-          <Text style={styles.cardText}  numberOfLines={1}ellipsizeMode="tail">
+          <Text style={styles.cardText}  numberOfLines={1} ellipsizeMode="tail">
             Red
           </Text>
         </View>

@@ -56,11 +56,11 @@ export default function ContactList() {
 
 const styles = StyleSheet.create({
     headingText: {
-    fontSize: 26,
-    fontWeight: 'bold',
-    color: '#fff',
-    paddingHorizontal: 16,
-    marginBottom: 10,
+        fontSize: 26,
+        fontWeight: 'bold',
+        color: '#fff',
+        paddingHorizontal: 16,
+        marginBottom: 10,
     },
     container: {
         paddingHorizontal: 16,

@@ -100,3 +100,28 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
   "# React-Native"
+
+<!--
+view - style,layout
+text - style, numberOflines, ellipsizeMode
+image - source(require, uri), style, resizeMode='cover, containt,stretch,center'
+TextInput - style, placeholder, keyboardType, value, onChange, secureTextEntry, editable(true, false), onSubmitEditing, multiLine
+TouableOpacity - onPress, disabled, avctiveOpacity
+Button - onPress
+FlatList - data(array), renderItem(cb), keyExtractor, pagingEnabled, listFooterComponent(cb), listHeadererComponent(cb),
+SectionList - section{[{data},{title}]}, renderSectionHeader(cb)
+ 
+ // FLEXBOX
+ 
+flex: 0 to 1;
+flexDirection -> column, row and their reverse
+justifyContent -> align child components(column) -- space-between/venly/around, center
+alignItems -> align child components(row) -- flex-start/end, tretch, baseline, center
+alignSelf -> align itself - flex-end/....same as alignItem
+flexWrap -> child align
+
+ 
+ // Navigation
+ 
+
+--!>

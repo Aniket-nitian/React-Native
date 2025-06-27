@@ -49,11 +49,11 @@ export default function ActionCard() {
 
 const styles = StyleSheet.create({
     headingText: {
-    fontSize: 26,
-    fontWeight: 'bold',
-    color: '#fff',
-    paddingHorizontal: 16,
-    marginBottom: 10,
+        fontWeight: 'bold',
+        fontSize: 26,
+        paddingHorizontal: 16,
+        marginBottom: 10,
+        color: '#fff',
     },
     card: {
         width: "100%",

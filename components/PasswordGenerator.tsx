@@ -59,7 +59,6 @@ export default function PasswordGenerator() {
       result += characters.charAt(characterIndex)
     }
     return result
-    console.log("hitesh");
     
   }
 
@@ -80,13 +79,13 @@ export default function PasswordGenerator() {
         <View style={styles.formContainer}>
           <Text style={styles.title}>Password Generator</Text>
           <Formik
-       initialValues={{ passwordLength: '' }}
-       validationSchema={PasswordSchema}
-       onSubmit={ values => {
-        console.log(values);
-        generatePasswordString(+values.passwordLength) 
-       }}
-     >
+                  initialValues={{ passwordLength: '' }}
+                  validationSchema={PasswordSchema}
+                  onSubmit={ values => {
+                        console.log(values);
+                  generatePasswordString(+values.passwordLength) 
+                }}
+          >
        {({
          values,
          errors,
@@ -106,7 +105,6 @@ export default function PasswordGenerator() {
                 {errors.passwordLength}
               </Text>
             )}
-            
           </View>
           <TextInput
             style={styles.inputStyle}
@@ -114,7 +112,7 @@ export default function PasswordGenerator() {
             onChangeText={handleChange('passwordLength')}
             placeholder="Ex. 8"
             keyboardType='numeric'
-            />
+          />
          </View>
          <View style={styles.inputWrapper}>
           <Text style={styles.heading}>Include lowercase</Text>
@@ -133,8 +131,8 @@ export default function PasswordGenerator() {
                     onPress={() => setupperCase(!upperCase)}
                     fillColor="#FED85D"
                   />
-                </View>
-                <View style={styles.inputWrapper}>
+         </View>
+         <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Numbers</Text>
                   <BouncyCheckbox
                     useBuiltInState
@@ -142,8 +140,8 @@ export default function PasswordGenerator() {
                     onPress={() => setNumbers(!numbers)}
                     fillColor="#C9A0DC"
                   />
-                </View>
-                <View style={styles.inputWrapper}>
+         </View>
+         <View style={styles.inputWrapper}>
                   <Text style={styles.heading}>Include Symbols</Text>
                   <BouncyCheckbox
                     useBuiltInState
@@ -151,7 +149,7 @@ export default function PasswordGenerator() {
                     onPress={() => setSymbols(!symbols)}
                     fillColor="#FC80A5"
                   />
-                </View>
+         </View>
          <View style={styles.formActions}>
           <TouchableOpacity
           disabled={!isValid}
