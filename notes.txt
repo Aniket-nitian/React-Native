@@ -1,0 +1,36 @@
+useEffect(()=>{
+  //everyTime
+})
+
+useEffect(()=>{
+  //only one time
+},[])
+
+useEffect(()=>{
+  //whenever state change
+},[state])
+
+
+//ref --> avoid unnecessary render;
+const ref = useRef(initialValue); // returns { current: initialValue }
+const prev = useRef(0);
+
+prev.current = xyz;
+{prev.current}
+
+ref.current()
+ref.current().focus()
+
+            ////////
+🎁 Imagine Your Toy Box (useRef)
+Think of useRef() like a special toy box 🧸📦.
+
+You can put something inside (ref.current = value)
+
+You can take it out later (ref.current)
+
+But here's the cool part:
+👉 Even if you clean your room (like your React component re-rendering),
+the toy stays in the box and doesn't disappear!
+            ////////
+
