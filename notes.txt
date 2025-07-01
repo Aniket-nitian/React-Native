@@ -34,3 +34,27 @@ But here's the cool part:
 the toy stays in the box and doesn't disappear!
             ////////
 
+
+//contex
+React.createContext() ➤ creates a global box (context)
+
+<Context.Provider value={...}> ➤ wraps your app and provides the data
+
+useContext(Context) ➤ any component can open the box and access the data
+
+
+        ///////
+Without useCallback:
+
+Imagine you're baking the same cake 🧁 every day, but rewriting the recipe each time. Waste of time!
+
+With useCallback:
+
+You just reuse the same recipe — unless your ingredients (dependencies) change.
+
+
+      ////////////
+      🧠 useMemo vs useCallback
+Hook	Purpose
+useMemo	Caches a calculated value
+useCallback	Caches a function

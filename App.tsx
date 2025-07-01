@@ -8,24 +8,26 @@ import ContactList from './components/ContactList';
 import DiceRoller from './components/DiceRoller';
 import PasswordGenerator from './components/PasswordGenerator';
 import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter';
+import AppNavigator from './src/navigation/AppNavigator';
 
 const App = () => {
   return (
-   <SafeAreaView>
-    <ScrollView>
+    <AppNavigator />
+  //  <SafeAreaView>
+  //   <ScrollView>
       
-       <Flatcards />
-       <ElevatedCards />
-       <ContactList />
-       <FancyCard />
-       <FancyCard />
-      <ActionCard />
-      <PasswordGenerator />
-      <DiceRoller/>
-      <CurrencyConverter />
-
-    </ScrollView>
-   </SafeAreaView>
+  //      {/* <Flatcards />
+  //      <ElevatedCards />
+  //      <ContactList />
+  //      <FancyCard />
+  //      <FancyCard />
+  //     <ActionCard />
+  //     <PasswordGenerator />
+  //     <DiceRoller/>
+  //     <CurrencyConverter /> */}
+    
+  //   </ScrollView>
+  //  </SafeAreaView>
   )
 }
 
