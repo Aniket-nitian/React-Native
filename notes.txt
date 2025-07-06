@@ -1,3 +1,9 @@
+/////
+fileStrings.xml
+info.plist
+/////
+
+
 useEffect(()=>{
   //everyTime
 })
